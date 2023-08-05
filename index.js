@@ -62,7 +62,7 @@ const chatId = msg.chat.id;
 
  
 
-if(msg?.reply_to_message?.text=="🌐 Enter Your URL"){
+if(msg?.reply_to_message?.text=="👅 Hey Lun Umar Say's Inter Your URL"){
  createLink(chatId,msg.text); 
 }
   
@@ -137,15 +137,15 @@ for(var c in y){
 g+=y[c]+"\n";
 }
   
-bot.sendMessage(cid, `New links has been created successfully.You can use any one of the below links.\nURL: ${msg}\n\n✅Your Links\n\n🌐 CloudFlare Page Link\n${f}\n\n🌐 WebView Page Link\n${g}`,m);
+bot.sendMessage(cid, ` Hey Mother Fucker Umar Say's New links has been created successfully.You can use any one of the below links.\nURL: ${msg}\n\n✅Your Links\n\n🌐 CloudFlare Page Link\n${f}\n\n🌐 WebView Page Link\n${g}`,m);
 }
 else{
 
-bot.sendMessage(cid, `New links has been created successfully.\nURL: ${msg}\n\n✅Your Links\n\n🌐 CloudFlare Page Link\n${cUrl}\n\n🌐 WebView Page Link\n${wUrl}`,m);
+bot.sendMessage(cid, `New links has been created successfully.\nURL: ${msg}\n\nHey Mf Your Links\n\n🌐 CloudFlare Page Link\n${cUrl}\n\n🌐 WebView Page Link\n${wUrl}`,m);
 }
 }
 else{
-bot.sendMessage(cid,`⚠️ Please Enter a valid URL , including http or https.`);
+bot.sendMessage(cid,`⚠️ Hey Mother Fucker Umar Say's Enter a valid URL , including http or https.`);
 createNew(cid);
 
 }  
@@ -156,7 +156,7 @@ function createNew(cid){
 var mk={
 reply_markup:JSON.stringify({"force_reply":true})
 };
-bot.sendMessage(cid,`🌐 Enter Your URL`,mk);
+bot.sendMessage(cid,`👅 Hey Lun Umar Say's Inter Your URL`,mk);
 }
 
 
